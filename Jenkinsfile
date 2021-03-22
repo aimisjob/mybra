@@ -9,13 +9,5 @@ stages{
     echo "building master"
   }
  }
- stage('build dev'){
-    when{
-      branch 'dev'
-    }
-     steps{
-        echo "building dev"
-     }
-  }
- }
+}
 }
